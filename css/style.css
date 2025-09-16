@@ -1,0 +1,32 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.logo-web {
+  color: #4d5ae5;
+}
+.menu {
+  list-style: none;
+}
+.menu-link {
+  text-decoration: none;
+  color: #2e2f42;
+  font-weight: 500;
+}
+.contacts {
+  list-style: none;
+}
+.contacts-link {
+  text-decoration: none;
+  color: #2e2f42;
+  font-weight: 500;
+  line-height: 1.5;
+}
