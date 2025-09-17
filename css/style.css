@@ -15,7 +15,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.logo-web {
+.logo-span {
   color: #f4f4fd;
 }
 /* navigation */
@@ -28,6 +28,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .menu-link:focus,
 .menu-link:hover {
@@ -60,6 +61,8 @@ body {
   font-size: 56px;
   line-height: 1.07;
   color: #fff;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .button {
   font-weight: 500;
@@ -76,10 +79,7 @@ body {
   background-color: #404bbf;
 }
 /* features */
-.feautures-title {
-  text-align: center;
-  letter-spacing: 0.02em;
-}
+
 .features {
   list-style: none;
 }
