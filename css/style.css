@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
 }
+/* header */
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -9,10 +10,12 @@ body {
   line-height: 1.17;
   text-decoration: none;
   text-transform: uppercase;
+  color: #2e2f42;
 }
 .logo-web {
   color: #4d5ae5;
 }
+/* navigation */
 .menu {
   list-style: none;
 }
@@ -21,6 +24,10 @@ body {
   color: #2e2f42;
   font-weight: 500;
 }
+.menu-link:hover {
+  color: #404bbf;
+}
+/* address */
 .contacts {
   list-style: none;
 }
@@ -29,4 +36,57 @@ body {
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
+}
+.contacts-link:hover {
+  color: #404bbf;
+}
+/* title */
+.hero {
+  background: #2e2f42;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: #fff;
+}
+.button {
+  font-weight: 500;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #4d5ae5;
+}
+.button:focus,
+.button:hover {
+  background-color: #404bbf;
+}
+/* features */
+.features {
+  list-style: none;
+}
+.feature-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.feature-text {
+  color: #434455;
+  line-height: 1.5;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.team-profession {
+  color: #434455;
+  line-height: 1.5;
+}
+.team {
+  list-style: none;
 }
